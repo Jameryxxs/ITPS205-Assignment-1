@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(images/digital-technology-background-abstract-tech-visual-for-science-template-futuristic-background-with-dots-combination-vector.jpg);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: url(images/691b2fbaf4441993d8041f9d538eeacf-ezgif.com-resize.gif)  center;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_text {
+    font-size:30px;
+    color: #01fcfd;
+    text-decoration: underline overline;
+
+}
+.nav-link {
+    background-color: #002e60;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 0;
+    border: 2px solid #01fcfd;
+}
+.nav-link ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+.nav-link li {
+    display: inline;
+}
+.nav-link a {
+    text-decoration: none;
+    color:#01fcfd;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.whole_container {
+    display: flex;
+    width: 100%;
+}
+.first_half {
+    width: 30%;
+    background-color: #002e60;
+    padding: 20px;
+    border: 2px solid #01fcfd ;
+    border-radius: 5px;
+}
+
+
+.second_half {
+    width: 70%;
+    background-color:#01fcfd;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #002e60;
+}
+.t1 {
+    color: #01fcfd;
+}
+.t2{
+   color: #002e60; 
+}
+
+.img1 img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.img2 img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.img3 img{
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.img4 img{
+    display: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .whole_container {
+        flex-direction: row; 
+        width: 90%;
+        margin: auto;
+    }
+
+    .first_half {
+        width: 50%; 
+    }
+
+    .second_half {
+        width: 50%;
+    }
+    .img1 img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+
+    .img2 img {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .img3 img{
+        display: block;
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .whole_container {
+        flex-direction: column; 
+        width: 80%;
+    }
+
+    .nav-link{
+        text-align: center;
+    }
+
+    .nav-link ul {
+        gap: 2px;
+        justify-content: center;
+    }
+
+    .first_half, .second_half {
+        width: 100%;
+    }
+    .header_text {
+    font-size:20px;
+    color: #01fcfd;
+    text-decoration: underline overline;
+    }
+    .nav-link a {
+    text-decoration: none;
+    color:#01fcfd;
+    font-size: 16px;
+    padding: 0 10px;
+    }
+    .img3 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+    .img4 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+}
