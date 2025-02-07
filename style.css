@@ -95,12 +95,27 @@ body {
 .pg {
     background: #eb8080;
     border-radius:10px;
+    margin: 2%;
 }
 .pg1 img{
     width: 30%;
     align-items: center;
     border-radius: 10px;
     margin: 1%;
+}
+.ani {
+    width: 96%;
+    height: 32%;
+    background: #eb8080;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 5%;
+    
+}
+.ani1 img{
+    width: 28%;
+    margin: 2%;
+    border-radius: 10px;
 }
 .pg1 img:hover{
     transform: scale(1.08)
@@ -122,33 +137,6 @@ body {
     margin-top: 1%;
 }
 
-.img1 img {
-    width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.img2 img {
-    width: 100%;
-    height: 400px;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-.img3 img{
-    display: none;
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-.img4 img{
-    display: none;
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 5px;
-}
 
 @media screen and (max-width: 768px) {
     .whole_container {
@@ -160,6 +148,7 @@ body {
     .aboutme_bar {
         width: 50%; 
     }
+    
 
     .PROJECT_bar {
         width: 50%;
@@ -172,25 +161,25 @@ body {
     border-radius: 5px;
     }
 
-    .img2 img {
-        width: 100%;
-        height: 220px;
-        margin-top: 20px;
-        border-radius: 5px;
+    .pg1 img{
+        width: 40%;
+        margin: 4%;
     }
-    .img3 img{
-        display: block;
-        width: 100%;
-        height: 220px;
-        margin-top: 20px;
-        border-radius: 5px;
+    .ani{
+        height: 40%;
     }
-
+    .ani1 img{
+        width: 40%;
+        margin: 4%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .whole_container {
         flex-direction: column; 
+        width: 105%;
+    }
+    .header{
         width: 100%;
     }
 
